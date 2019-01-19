@@ -1,0 +1,146 @@
+body {
+	font-family: 'Abel', sans-serif;
+	font-size: 19px;
+	color: #555;
+	margin: 0;
+	min-width: 320px;
+}
+h1 {
+	font-family: 'Rancho', sans-serif;
+	font-size: 95px;
+	line-height: 90px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+h3 {
+	font-size: 28px;
+	border-bottom: 1px solid #d17e32;
+	padding-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+p {
+	line-height: 32px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.wrapper {
+	max-width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.button {
+	background-color: #8842c2;
+	color: #fff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 12px;
+	padding-left: 12px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.call-to-action {
+	text-align: center;
+	margin-bottom: 60px;
+}
+header {
+	padding: 20px;
+	line-height: 36px;
+}
+.logo {
+	vertical-align: middle;
+}
+nav {
+	float: right;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin-left: 10px;
+}
+nav a {
+	color: #555;
+	text-decoration: none;
+}
+.hero {
+	text-align: center;
+	padding: 10%;
+	color: #fff;
+	background-color: #520;
+	background-image: url(images/hero@2x.jpg);
+	background-position: center 75%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about .hero,
+.thank-you .hero {
+	background-image: url(images/holding-coffee@2x.jpg);
+}
+.signup .hero {
+	background-image: url(images/coffee-bag@2x.jpg);
+}
+main {
+	max-width: 850px;
+	padding: 25px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+footer {
+	background-color: #e9d8c8;
+	padding: 20px;
+}
+footer p {
+	margin: 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+.social {
+	float: right;
+}
+.social a {
+	text-decoration: none;
+	margin-left: 10px;
+	opacity: .6;
+}
+
+/* form styles */
+form {
+	border: 1px solid #e9d8c8;
+	border-radius: 6px;
+	padding: 5%;
+}
+label, input {
+	display: block;
+}
+input, button {
+	font-family: 'Abel', sans-serif;
+	font-size: 19px;
+}
+input {
+	width: 90%;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	border: 1px solid #e9d8c8;
+	border-radius: 6px;
+}
+button {
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
